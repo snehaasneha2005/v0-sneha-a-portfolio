@@ -22,7 +22,7 @@ export function Footer() {
             <Github className="h-4 w-4" />
           </a>
           <a
-            href="https://linkedin.com/in/sneha-a"
+            href="https://www.linkedin.com/in/sneha-a-3a13272a7"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-9 w-9 items-center justify-center rounded-full border border-border text-muted-foreground transition-all hover:border-primary hover:text-primary"

@@ -57,7 +57,7 @@ export function HeroSection() {
             <Github className="h-4 w-4" />
           </a>
           <a
-            href="https://linkedin.com/in/sneha-a"
+            href="https://www.linkedin.com/in/sneha-a-3a13272a7"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-card text-muted-foreground transition-all hover:border-primary hover:text-primary hover:-translate-y-0.5"

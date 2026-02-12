@@ -48,7 +48,7 @@ export function ContactSection() {
               </div>
               <div>
                 <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">LinkedIn</p>
-                <a href="https://linkedin.com/in/sneha-a" target="_blank" rel="noopener noreferrer" className="mt-0.5 block text-sm font-medium text-foreground hover:text-primary transition-colors">linkedin.com/in/sneha-a</a>
+                <a href="https://www.linkedin.com/in/sneha-a-3a13272a7" target="_blank" rel="noopener noreferrer" className="mt-0.5 block text-sm font-medium text-foreground hover:text-primary transition-colors">linkedin.com/in/sneha-a-3a13272a7</a>
               </div>
             </div>
 
