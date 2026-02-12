@@ -38,7 +38,7 @@ export function ContactSection() {
               </div>
               <div>
                 <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">Email</p>
-                <p className="mt-0.5 text-sm font-medium text-foreground">sneha@example.com</p>
+                <a href="mailto:sneha.a.sneha2005@gmail.com" className="mt-0.5 block text-sm font-medium text-foreground hover:text-primary transition-colors">sneha.a.sneha2005@gmail.com</a>
               </div>
             </div>
 
@@ -48,7 +48,7 @@ export function ContactSection() {
               </div>
               <div>
                 <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">LinkedIn</p>
-                <p className="mt-0.5 text-sm font-medium text-foreground">linkedin.com/in/sneha-a</p>
+                <a href="https://linkedin.com/in/sneha-a" target="_blank" rel="noopener noreferrer" className="mt-0.5 block text-sm font-medium text-foreground hover:text-primary transition-colors">linkedin.com/in/sneha-a</a>
               </div>
             </div>
 
@@ -58,7 +58,7 @@ export function ContactSection() {
               </div>
               <div>
                 <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">GitHub</p>
-                <p className="mt-0.5 text-sm font-medium text-foreground">github.com/sneha-a</p>
+                <a href="https://github.com/snehaasneha2005" target="_blank" rel="noopener noreferrer" className="mt-0.5 block text-sm font-medium text-foreground hover:text-primary transition-colors">github.com/snehaasneha2005</a>
               </div>
             </div>
           </div>

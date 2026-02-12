@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowDown } from "lucide-react"
+import { ArrowDown, Github, Linkedin, Mail } from "lucide-react"
 
 export function HeroSection() {
   return (
@@ -39,9 +39,37 @@ export function HeroSection() {
           </a>
         </div>
 
+        <div className="mt-8 flex items-center justify-center gap-5 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
+          <a
+            href="mailto:sneha.a.sneha2005@gmail.com"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-card text-muted-foreground transition-all hover:border-primary hover:text-primary hover:-translate-y-0.5"
+            aria-label="Email"
+          >
+            <Mail className="h-4 w-4" />
+          </a>
+          <a
+            href="https://github.com/snehaasneha2005"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-card text-muted-foreground transition-all hover:border-primary hover:text-primary hover:-translate-y-0.5"
+            aria-label="GitHub"
+          >
+            <Github className="h-4 w-4" />
+          </a>
+          <a
+            href="https://linkedin.com/in/sneha-a"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-card text-muted-foreground transition-all hover:border-primary hover:text-primary hover:-translate-y-0.5"
+            aria-label="LinkedIn"
+          >
+            <Linkedin className="h-4 w-4" />
+          </a>
+        </div>
+
         <a
           href="#about"
-          className="mt-16 inline-flex animate-bounce text-primary"
+          className="mt-10 inline-flex animate-bounce text-primary"
           aria-label="Scroll to About section"
         >
           <ArrowDown className="h-6 w-6" />
